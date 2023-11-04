@@ -1,0 +1,32 @@
+@font-face {
+    font-family: "Apercu-Light";
+    src: url("https://db.onlinewebfonts.com/t/6919b1d8ce07af7205b8a5ae3ec2013b.eot");
+    src: url("https://db.onlinewebfonts.com/t/6919b1d8ce07af7205b8a5ae3ec2013b.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/6919b1d8ce07af7205b8a5ae3ec2013b.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/6919b1d8ce07af7205b8a5ae3ec2013b.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/6919b1d8ce07af7205b8a5ae3ec2013b.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/6919b1d8ce07af7205b8a5ae3ec2013b.svg#Apercu-Light")format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Flaticon';
+    src: url('fonts/Flaticon.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Garamond3LTStd';
+    src: url('fonts/Garamond3LTStd.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+h2 , h3, p{
+    font-family: 'Garamond3LTStd', serif;
+}
+

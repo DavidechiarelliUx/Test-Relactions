@@ -1,3 +1,487 @@
-body{
-    background-color: aquamarine;
+body, html {
+    height: 100%;
+    background-color: #AFB4B0;
+}
+
+header {
+    position: relative;
+    width: 100%;
+    max-width: 1440px;
+    height: 800px;
+    margin: 0 auto;
+    background: url('./assets/images/21zerla.jpg') center center/cover no-repeat;
+}
+
+.menu-container {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 80px;
+    margin-left: -159px;
+}
+
+svg {
+    position: absolute;
+    left: 285px;
+}
+
+.white-line {
+    width: 1px;
+    height: 70px;
+    margin: 0 15px;
+    background-color: white;
+    margin-left: 360px;
+}
+
+.nav {
+    color: white;
+    margin-left: 18px;
+}
+.nav2{
+    color: white;
+    margin-left: 18px;
+}
+
+.white-line6 {
+    width: 1px;
+    height: 70px;
+    margin: 15 0px;
+    background-color: white;
+    margin-left: 30px;
+}
+
+.logo {
+    margin-left: 1069px;
+}
+
+.title {
+    position: absolute;
+    top: 30%;
+    left: 125px;
+    color: white;
+}
+
+.page {
+    position: absolute;
+    top: 85%;
+    left: 125px;
+    color: white;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 1150%;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1440px;
+}
+
+.column {
+    flex: 0 0 62px;
+    height: 100%;
+    margin-right: 63px;
+    background-color: rgba(128, 0, 128, 0.3);
+}
+
+.column:last-child {
+    margin-right: 0;
+}
+
+.content-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    margin-top: 5%;
+}
+
+.text-section {
+    flex: 1;
+    margin-left: 195px;
+    font-size: 20px;
+}
+
+.image-section {
+    flex: 1;
+    text-align: right;
+}
+
+.image-section img {
+    width: 565px;
+    height: auto;
+    margin-right: 690px;
+}
+
+.content-container2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    margin-top: 5%;
+}
+
+.text-section2 {
+    flex: 1;
+    margin-left: 225px;
+    font-size: 20px;
+}
+
+.image-section2 {
+    flex: 1;
+    text-align: left;
+}
+
+.image-section2 img {
+    width: 565px;
+    height: auto;
+    margin-left: 125px;
+}
+
+.call-to-action {
+    font-size: 17px;
+    font-weight: 400;
+    border-bottom: 0.5px solid black;
+    padding-bottom: 8px;
+}
+
+.image {
+    position: relative;
+    width: 100%;
+    max-width: 1440px;
+    height: 900px;
+    margin: 0 auto;
+    top: 100px;
+    background: url('./assets/images/15_GASTEL 2017_esterno e piscina.jpg') center center/cover no-repeat;
+}
+
+.content-container3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    margin-top: 12%;
+}
+
+.call-to-action2 {
+    font-size: 22px;
+    margin-top: 20px;
+    font-weight: 500;
+    border-bottom: 0.5px solid black;
+    padding-bottom: 8px;
+}
+
+.text-under-section {
+    width: 1250px;
+    margin-left:250px;
+    margin-top: 5%;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+}
+
+.text-section4 {
+    flex: 1;
+    margin-left: 50%;
+    margin-top: 10%;
+    font-size: 20px;
+}
+
+.white-line2 {
+    width: 70%;
+    height: 1px;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+}
+
+
+
+.container-partner {
+    text-align: left;
+    padding-left: 20px;
+    margin-top: 5%;
+}
+
+.container-partner p {
+    margin-left: 110px;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.white-line3 {
+    width: 1px;
+    height: 70px;
+    background-color: white;
+    margin-left: 280px;
+    margin-top: -5%;
+}
+
+.logo-partner {
+    margin-top: -8%;
+    margin-left: 500px;
+}
+
+.logo-p1 {
+    margin-left: 3%;
+}
+
+.white-line4 {
+    width: 1px;
+    height: 70px;
+    background-color: white;
+    margin-left:0px;
+    margin-top: 40px;
+}
+
+.logo-p2 {
+    margin-top: -5%;
+    margin-left: 265px;
+}
+
+.white-line5 {
+    width: 1px;
+    height: 70px;
+    background-color: white;
+    margin-left: 220px;
+    margin-top: -65px;
+}
+
+.logo-p3 {
+    margin-top: -77px;
+    margin-left: 490px;
+}
+
+.awards {
+    margin-top: -55px;
+    margin-left: 950px;
+}
+
+.logo-awards {
+    margin-top: -95px;
+    margin-left: 950px;
+}
+
+.footer {
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-left: 150px;
+}
+
+.footer-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-section ul,
+.footer-section address {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-section ul li a,
+.footer-section address a {
+    color: #000;
+    text-decoration: none;
+    line-height: 2;
+}
+
+.footer-section p {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.footer-section-email-section {
+    margin-right: 200px;
+}
+
+.white-line7 {
+    width: 350px;
+    height: 1px;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+}
+
+.footer-section-email-section p {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.follow {
+    margin-top: 15%;
+}
+
+/* versione mobile */
+@media screen and (max-width: 768px) {
+
+body, html {
+    height: auto;
+    background-color: #AFB4B0;
+}
+
+header {
+    height: 500px;
+    background: url('./assets/images/21zerla.jpg') center center/cover no-repeat;
+}
+
+.menu-container {
+    top: 40px;
+    margin-left:280px;
+    margin-top: -50px;
+}
+
+svg {
+    left: 20px;
+}
+.white-line,
+.white-line6,
+.white-line3,
+.white-line2
+{
+        display: none;
+}
+.nav {
+    margin-top: 80px;
+    margin-left:0px;
+    font-size: 14px;
+}
+.nav2{
+    display: none;
+}
+.logo {
+    margin-left: -280px;
+    margin-top: 50px;
+}
+
+.title {
+    top: 40%;
+    left: 25px;
+    font-size: 22px;
+}
+
+.page {
+    display: none;
+}
+
+.container {
+    height: auto;
+    top: 0;
+    left: 0;
+    transform: none;
+    padding: 20px;
+}
+ 
+.column {
+    display: none; 
+}
+
+.content-container {
+    flex-direction: column-reverse;
+    margin-top: 20px;
+}
+
+.content-container2 {
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.content-container3 {
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.text-section {
+    margin-left: 0;
+    font-size: 16px;
+    padding: 0 20px;
+}
+
+.text-section2 {
+    margin-left: 0;
+    font-size: 16px;
+    padding: 0 20px;
+}
+.text-section4 {
+    margin-left: 0;
+    font-size: 16px;
+    padding: 0 20px;
+}
+.image-section img,
+.image-section2 img {
+    width: 80%;
+    height: auto;
+    display: block;
+    margin: auto; 
+    margin-bottom: 20px;
+}
+
+.image {
+    height: 300px;
+    top: 0;
+    background: url('./assets/images/15_GASTEL\ 2017_esterno\ e\ piscina.jpg') center center/cover no-repeat;
+}
+
+.text-under-section {
+    width: auto;
+    margin: 20px;
+    font-size: 16px;
+}
+
+.image-container img {
+    width: 100%;
+    margin-left: 20px;
+    height: auto;
+}
+.container-partner p {
+    display: none;
+}
+
+.logo-partner {
+    display: none;
+}
+
+.awards {
+    display: none;
+}
+
+
+.footer {
+    margin-left: 20px;
+}
+.footer-section {
+    margin-left: 0px;
+
+
+}
+.footer-section p,
+.footer-section ul,
+.footer-section address,
+.footer-section-email-section p {
+    margin: 0;
+}
+.footer-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+.footer-section ul li a {
+  text-decoration: none;
+  color: inherit; 
+}
+.footer-section-email-section {
+display: none;
+}
+.follow {
+display: none;
+}
 }
